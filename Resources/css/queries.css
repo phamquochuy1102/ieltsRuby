@@ -1,0 +1,424 @@
+/*big tablet to 1200px*/
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .header-main-box{
+        transform: translate(-38%,-90%);
+    }
+}
+
+/*small tablet to big tablet*/
+@media only screen and (max-width:1023px){
+    html{
+        font-size: 16px;
+    }
+    .nav-mobile{
+        display: none;
+    }
+    .logo-page{
+        width: 200px;
+        margin-top:-15px;
+    }
+    .header-list{
+        margin-right: 9px;
+    }
+    .header-list li{
+        margin-top:20px;
+        margin-right: 10px;
+    }
+    .header-main-box{
+        transform: translate(-30%,-110%);
+    }
+    .about-picture img{
+        height:180px;
+    }
+    .product-info{
+        height:380px;
+    }
+    .product-info .btn{
+        margin-left:23%;
+    }
+    .product-header{
+        font-size:105%;
+    }
+    .product-cost{
+        font-size: 130%;
+    }
+    .product-value{
+        font-size: 40px;
+    }
+    .contact-list{
+        margin-left:40px;
+        margin-top:100px;
+    }
+    .contact-list li{
+        font-size: 90%;
+        line-height: 180%;
+    }
+    .contact-socialmedia{
+        margin-left:40px;
+    }
+    .social-list{
+        font-size: 170%;
+    }
+    form{
+        margin-left: 25%;  
+        padding:20px;
+    }
+    .ontop div{
+        padding:6px 12px 4px 12px;
+    }
+}
+
+/*small phone to small tablet*/
+@media only screen and (max-width:767px){
+    .col{
+        width: 100%;
+    }
+    html{
+        font-size: 15px;
+    }
+    .header-list{
+        display: none;
+    }
+    .header-main-box{
+        font-size: 12px;
+        transform: translate(-16%,-130%);
+    }
+    .mobnav-icon{
+        display: block;
+    }
+    .about-picture img{
+        height:160px;
+    }
+    .product-info{
+        width: 95%;
+        height:400px;
+        margin-left:3%;
+        margin-bottom: 25px;
+    }
+    .product-info .btn{
+      margin-left:20%;
+    }
+    .testimonials-section{
+        height: 115vh;
+    }
+    .testimaonials-title{
+        margin-bottom: 20px;
+    }
+    blockquote{
+        padding: 0 25px;
+    }
+    .sponsors-list{
+        margin-left:15%;
+    }
+    .sponsors-list li{
+        width:25%;
+        height: 10%;
+    }
+    .sponsors-logo{
+        width:90px;
+    }
+    .contact-list {
+        margin-top:5px;
+        margin-left:30px;
+    }
+    .contact-socialmedia{
+        margin-top:20px;
+        margin-left:30px;
+        font-size: 180%;
+    }
+    form{
+        margin-left: 18%;
+        width: 68%;
+        padding:14px 20px 25px 20px ;
+        margin-top:2%;
+    }
+    label{
+        padding:0;
+    }
+    textarea{
+        margin-bottom: 0px;
+    }
+    input, textarea{
+        padding: 8px;
+    }
+    .submit-btn{
+        margin-left:18%;
+        font-size: 100%;
+        font-weight: 600;
+        border-radius: 10px;
+        padding:10px 50px;
+    }
+    .ontop div{
+        padding:6px 12px 4px 12px;
+    }
+}
+
+/*small phone from 0 to 480px*/
+@media only screen and (max-width:480px){
+    html{
+        font-size: 15px;
+    }
+    .nav-mobile{
+        width: 100%;
+    }
+    .header{
+        height: 80vh;
+    }
+    .header-list{
+        margin-right: 9px;
+        display: none;
+    }
+    .header-list li{
+        width: 100%;;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin:5px;
+    }
+    /* .sticky-header{
+        height: 60px;
+    } 
+    .sticky-header .logo-page{
+        margin-top:-25px;
+        width:190px;
+    }
+    .sticky-header .mobile-navigation{
+        font-size:180%;
+        top:13px;
+    } */
+    .course-dropdown{
+        width: 100%;
+    }
+    .course-list{
+        width: 5%;
+        height: 25%;
+        position: fixed;
+        z-index: 9999;
+        left: 15%;
+        border-radius: 10px;
+    }
+    .course-list a{
+        padding: 11px 40px;
+        border-bottom: 1px solid black;
+    }
+    .header-main-box{
+        font-size: 10px;
+        transform: translate(-50%,-120%);
+        width: 95%;
+    }
+    .mobnav-icon{
+        display: block;
+    }
+    .mobnav-icon:hover{
+        cursor: pointer;
+        color:black;
+    }
+    .about-picture img{
+        width:55%;
+        height:200px;
+        margin-left:23%;
+        margin-bottom: 20px;
+    }
+    .product-info{
+        width: 70%;
+        height:330px;
+        margin-left:15%;
+        margin-bottom: 25px;
+    }
+    .product-info .btn{
+      margin-left:28%;
+    }
+    .testimonials-section{
+        height: 100%;
+    }
+    .testimaonials-title{
+        margin-bottom: 20px;
+    }
+    blockquote{
+        width: 75%;
+        margin-left: 13%;
+        font-size: 15px;
+    }
+    cite{
+        margin:20px 0;
+    }
+    .sponsors-list{
+        margin-left:5%;
+    }
+    .sponsors-list li{
+        width:25%;
+        height: 10%;
+        margin:10px 10px;
+    }
+    .sponsors-logo{
+        width:90px;
+    }
+    .contact-list {
+        margin-right: 30px;
+    }
+    .contact-socialmedia{
+        margin-top:20px;
+        margin-left:20%;
+        font-size: 120%;
+    }
+    form{
+        margin-left: 16%;
+        width: 68%;
+        padding:14px 5px 25px 20px ;
+        margin-top:2%;
+        align-items: center;
+    }
+    label{
+        padding:0;
+    }
+    textarea{
+        margin-bottom: 0px;
+    }
+    input, textarea{
+        padding: 8px;
+    }
+    .submit-btn{
+        margin-left: 25%;
+        font-size: 80%;
+        font-weight: 600;
+        border-radius: 10px;
+        padding:10px 30px;
+    }
+    .ontop div{
+        padding:7px 12px 4px 12px;
+    }
+    .footer-section{
+        padding: 8px;
+    }
+    .contact-section{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    html{
+        font-size: 15px;
+    }
+    .nav-mobile{
+        width: 100%;
+    }
+    .header{
+        height: 80vh;
+    }
+    .header-list{
+        margin-right: 9px;
+        display: none;
+    }
+    .header-list li{
+        width: 100%;;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+        margin:5px;
+    }
+    .course-dropdown{
+        width: 100%;
+    }
+    .course-list{
+        width: 5%;
+        height: 23%;
+        position: fixed;
+        z-index: 9999;
+        left: 130px;
+        border-radius: 10px;
+    }
+    .course-list a{
+        padding: 11px 40px;
+        border-bottom: 1px solid black;
+    }
+    .header-main-box{
+        font-size: 10px;
+        transform: translate(-50%,-120%);
+        width: 100%;
+    }
+    .mobnav-icon{
+        display: block;
+    }
+    .mobnav-icon:hover{
+        cursor: pointer;
+        color:black;
+    }
+    .about-picture img{
+        width:55%;
+        height:200px;
+        margin-left:23%;
+        margin-bottom: 20px;
+    }
+    .product-info{
+        width: 70%;
+        height:330px;
+        margin-left:15%;
+        margin-bottom: 25px;
+    }
+    .product-info .btn{
+      margin-left:28%;
+    }
+    .testimonials-section{
+        height: 100%;
+    }
+    .testimaonials-title{
+        margin-bottom: 20px;
+    }
+    blockquote{
+        padding: 0 25px;
+    }
+    .sponsors-list{
+        margin-left:5%;
+    }
+    .sponsors-list li{
+        width:25%;
+        height: 10%;
+        margin:10px 10px;
+    }
+    .sponsors-logo{
+        width:90px;
+    }
+    .contact-list {
+        margin-top:5px;
+    }
+    .contact-socialmedia{
+        margin-top:20px;
+        margin-left:20%;
+        font-size: 120%;
+    }
+    form{
+        margin-left: 16%;
+        width: 68%;
+        padding:14px 10px 25px 20px ;
+        margin-top:2%;
+        align-items: center;
+    }
+    label{
+        padding:0;
+    }
+    textarea{
+        margin-bottom: 0px;
+    }
+    input, textarea{
+        padding: 8px;
+    }
+    .submit-btn{
+        align-items: center;
+        font-size: 80%;
+        font-weight: 600;
+        border-radius: 10px;
+        padding:10px 50px;
+    }
+    .ontop div{
+        padding:7px 12px 4px 12px;
+    }
+    .footer-section{
+        padding: 8px;
+    }
+    .contact-section{
+        height: 100%;
+    }
+}

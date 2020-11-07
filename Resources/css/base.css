@@ -1,0 +1,12 @@
+*{
+ /*color from website color scheme*/
+   color1:#5680e9;
+   color2:#84CEEB;
+   color3:rgb(71, 151, 190);
+   color4:#C1C8E4;
+   color5:#8860D0;
+}
+
+:root{
+    --base-color:#47a8ce;
+}

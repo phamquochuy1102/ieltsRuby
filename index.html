@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS RUBY | IELTS 8.0</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="./Resources/css/styles.css">
+    <link rel="stylesheet" href="./Resources/css/queries.css">
+    <link rel="stylesheet" href="./Resources/css/base.css">
+    <link rel="shortcut icon" href="./Resources/img/iconmini.png">
+    <link rel="stylesheet" href="./Vendors/css/grid.css">
+    <link rel="stylesheet"
+        href="./Vendors/fonts/fontawesome-free-5.14.0-web/fontawesome-free-5.14.0-web/css/all.min.css">
+</head>
+
+<body>
+    <header id="home">
+        <div class="header-main">
+            <nav>
+                <a href="#home" class=""><img src="./Resources/img/ielts-logo-du-hoc-glolink-3.png" class="logo-page"
+                        alt="LOGO-PAGE"></a>
+                <ul class="header-list clearfix">
+                    <li class="header-item"><a href="#home" class="header-link">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a></li>
+                    <li><a href="#about" class="header-link">About IELTS Ruby</a></li>
+                    <span class="course-dropdown">
+                        <li><a href="" class="header-link">
+                                Courses
+                                <i class="fas fa-chevron-down"></i>
+                            </a></li>
+                        <div class="course-list">
+                            <a href="#product" class="ielts4,5">IELTS Level 4.5</a>
+                            <a href="#product" class="ielts6,5">IELTS Level 6.5</a>
+                            <a href="#product" class="ielts8,0">IELTS Level 8.0</a>
+                        </div>
+                    </span>
+                    <li><a href="#contact" class="header-link">Contact Us</a></li>
+                    <li><a href="" class="header-link"><i class="fas fa-search"></i></a></li>
+                </ul>
+                <label for="nav-mobile-openandquit" onclick="closeBox()" class="mobnav-icon"><i class="fas fa-bars mobile-navigation"></i></label>
+            </nav>
+            <label for="nav-mobile-openandquit" onclick="closeBox()" class="mobnav-icon"><i class="fas fa-bars mobile-navigation"></i></label>
+            <input type="checkbox" hidden name="" id="nav-mobile-openandquit" class="checknavmobile">
+            <nav class="nav-mobile">
+                <ul class="header-list-mobile">
+                    <li class="header-item" onclick="closeBox()">
+                        <a href="#home" class="header-link-mobile">
+                            <i class="fas fa-home"></i>
+                            Home
+                        </a></li>
+                    <li class="header-item" onclick="closeBox()"><a href="#about" class="header-link-mobile">
+                        <i class="fas fa-question-circle"></i>
+                        About IELTS Ruby
+                    </a></li>
+                    <span class="course-dropdown">
+                        <li class="header-item"><div class="header-link-mobile">
+                                <i class="fas fa-laptop"></i>
+                                Courses
+                                <i class="fas fa-chevron-down"></i>
+                        </div></li>
+                        <div class="course-list">
+                            <a href="#product" class="ielts4,5"onclick="closeBox()" >IELTS Level 4.5</a>
+                            <a href="#product" class="ielts6,5" onclick="closeBox()">IELTS Level 6.5</a>
+                            <a href="#product" class="ielts8,0"onclick="closeBox()">IELTS Level 8.0</a>
+                        </div>
+                    </span>
+                    <li class="header-item" onclick="closeBox()">
+                        <a href="#contact" class="header-link-mobile" >
+                        <i class="fas fa-phone"></i>
+                        Contact Us</a>
+                    </li>
+                    <li class="header-item"onclick="closeBox(); alertUser()" ><a href="#home" class="header-link-mobile" >
+                        <i class="fas fa-user-lock"></i>
+                        Register/Login</i></a></li>
+                </ul>
+                <label for="nav-mobile-openandquit" class="mobnav-close" onclick="closeBox()"><i class="fas fa-times"></i></label>
+            </nav>
+            <!-- <script>
+                function closeBox() {
+                    var checkBox = document.querySelector(".checknavmobile");
+                    var box = document.querySelector(".nav-mobile");
+                    if (checkBox.checked == true) {
+                        box.style.display = "block";
+                    } else {
+                        box.style.display = "none";
+                    }
+                }
+            </script> -->
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="header-main-box">
+                <h1 class="header-text">Chào mừng bạn đến với IELTS Ruby!
+                    <br> Trình độ từ cơ bản đến nâng cao.
+                    <br> Tiếng Anh cho công việc.</h1>
+                <div class="header-btn-main">
+                    <a href="#about" class="btn">Tell me more</a>
+                    <a href="#product" class="btn">Join us!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="row">
+            <h2 class="about-title">ABOUT US</h2>
+            <p class="about-description">Learning method của IELTS Ruby giúp việc học Tiếng Anh trở nên Thông minh
+                và Tư duy hơn. Tuỳ vào nhu cầu
+                mà IELTS Ruby có những phương pháp phù hợp giúp học viên rút ngắn được thời gian tiến bộ và áp
+                dụng kiến thức đã học để sử dụng trong thực tế.</p>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-4 about-picture">
+                <img src="./Resources/img/listening.jpg" alt="activity1">
+                <p class="activity-title">
+                    Listening skill
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./Resources/img/reading1.jpg" alt="activity2">
+                <p class="activity-title">
+                    Reading skill
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./Resources/img/speaking.png" alt="activity3">
+                <p class="activity-title">
+                    Speaking skill
+                </p>
+            </div>
+            <div class="col span-1-of-4 about-picture">
+                <img src="./Resources/img/writing.jpg" alt="activity4">
+                <p class="activity-title">
+                    Writing Skill
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="product" class="product-section">
+        <div class="row">
+            <h2 class="product-title">OUR COURSES</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="product-info">
+                    <h3 class="product-header">Foundation Level</h3>
+                    <div class="product-detail">
+                        <div class="product-cost"><span class="product-value">20$ </span>/month</div>
+                        <ul class="product-benefit">
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Cam kết đầu ra IELTS 4.5
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Kiện toàn kiến thức nền tảng tiếng Anh
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Phương pháp luyện thi IELTS siêu tốc và hiệu quả cao
+                            </li>
+                        </ul>
+                        <a href="" class="btn">ĐĂNG KÝ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="product-info">
+                    <h3 class="product-header">Advanced Level</h3>
+                    <div class="product-detail">
+                        <div class="product-cost"><span class="product-value">27$ </span>/month</div>
+                        <ul class="product-benefit">
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Cam kết đầu ra 6.5 IELTS
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Hệ thống bài thi thử trước khi thi thật
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Phương pháp luyện thi IELTS siêu tốc và hiệu quả cao
+                            </li>
+                        </ul>
+                        <a href="" class="btn">ĐĂNG KÝ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="product-info">
+                    <h3 class="product-header">Master Level</h3>
+                    <div class="product-detail">
+                        <div class="product-cost"><span class="product-value">35$ </span>/month</div>
+                        <ul class="product-benefit">
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Cam kết đầu ra 8.0 IELTS
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Hệ thống bài thi thử trước khi thi thật
+                            </li>
+                            <li class="benefit-detail">
+                                <i class="fas fa-check benefit-icon"></i>
+                                Phương pháp luyện thi IELTS siêu tốc và hiệu quả cao
+                            </li>
+                        </ul>
+                        <a href="" class="btn">ĐĂNG KÝ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <h2 class="testimaonials-title">Testimonials</h2>
+        <div class="row">
+            <div class="col span-1-of-1 sliders">
+                <blockquote class="fade">
+                    7.0 overall: 7.0 listening 7.0 reading 6.5 speaking 7.0 writing. Mình mới thi thử IELTS lần đầu thôi
+                    nhưng thích học lắm lun, các anh chị tư vấn nhiệt tình mà cơ sở cũng tốt nữa.Tôi cũng ngạc nhiên
+                    bởi sự cởi mở của giáo viên. Mình rất quý sự giúp đỡ và khuyên nhủ trong suốt khóa học. Mình cảm
+                    ơn trung tâm rất nhiều!
+                    <cite>
+                        <img src="./Resources/img/person1.jpg" alt="">
+                        Phan Minh Tuấn
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-1 sliders">
+                <blockquote class="fade">
+                    Phát âm là trở ngại lớn nhất của tôi. Tôi vẫn đang học Tiếng Anh mỗi ngày 45 phút, trong 3 tháng.
+                    Giám sát của tôi đến từ Mỹ, thúc giục tôi học phát âm. Anh ấy luôn khen phát âm của tôi ngày một khá
+                    lên. Không chỉ anh ta, tôi cũng nghe được lời động viên từ nhiều người. Tôi cũng ngạc nhiên bởi sự
+                    cởi mở của giáo viên.
+                    <cite>
+                        <img src="./Resources/img/person2.jpg" alt="">
+                        Lê Hoàng Nhân
+                    </cite>
+                </blockquote>
+            </div>
+            <div class="col span-1-of-1 sliders">
+                <blockquote class="fade">
+                    Tôi nói Tiếng Anh hằng ngày nơi công sở, giao tiếp với khách hàng quốc tế Nói Tiếng Anh đã dễ dàng
+                    hơn và bây giờ tôi cảm thấy rất tự tin. Lúc trước, rất khó để tôi diễn đạt ý nghĩ bằng Tiếng Anh,
+                    nhưng tôi đã vượt qua được rào cản ngôn ngữ với sự giúp đỡ của giáo viên.
+                    <cite>
+                        <img src="./Resources/img/person3.jpg" alt="">
+                        Nguyễn Thị Tuyết
+                    </cite>
+                </blockquote>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors" class="sponsors-section">
+        <h3 class="sponsors-title">SPONSORS</h3>
+        <div class="row">
+            <ul class="sponsors-list">
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/LogoVinGroup.jpg" alt="VinGroup">
+                        <figcaption>VinGroup</figcaption>
+                    </figure>
+                </li>
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/hagl.jpg" alt="HAGLGROUP">
+                        <figcaption class="fixed-fig">HAGL Group</figcaption>
+                    </figure>
+                </li>
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/flc.png" alt="FLC">
+                        <figcaption>FLC Group</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+            <ul class="sponsors-list">
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/fighter.png" alt="Fighter">
+                        <figcaption>IELTS Fighter</figcaption>
+                    </figure>
+                </li>
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/dai_hoc_khoa_hoc_tu_nhien_dhqg-hcm.png"
+                            alt="HCMUS">
+                        <figcaption class="fixed-fig">HCMUS</figcaption>
+                    </figure>
+                </li>
+                <li class="sponsors-item">
+                    <figure>
+                        <img class="sponsors-logo" src="./Resources/img/idp.jpg" alt="IDP">
+                        <figcaption>IDP Vietnam</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="row">
+            <div class="col span-1-of-3 contact-info">
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        Address: 09 Đặng Lộ, phường 07, quận Tân Bình, tp Hồ Chí Minh
+                    </li>
+                    <li class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        Email: ieltsruby@edu.vn
+                    </li>
+                    <li class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        Phone: (+84)358-814-889
+                    </li>
+                    <li class="contact-item">
+                        <i class="fas fa-user-edit contact-icon"></i>
+                        Manager: Huy Pham
+                    </li>
+                </ul>
+                <ul class="contact-socialmedia">
+                    <li class="social-list">
+                        <a href="" class="social-link"><i class="fab fa-facebook social-iconfb"></i></a>
+                    </li>
+                    <li class="social-list">
+                        <a href="" class="social-link"><i class="fab fa-twitter social-icontw"></i></a>
+                    </li>
+                    <li class="social-list">
+                        <a href="" class="social-link"><i class="fab fa-instagram social-iconins"></i></a>
+                    </li>
+                    <li class="social-list">
+                        <a href="" class="social-link"><i class="fab fa-youtube social-iconytb"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col span-2-of-3">
+                <form action="">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Input your name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" placeholder="Input your email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="">Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="" id="" cols="30" rows="5" placeholder="Input your message"></textarea>
+                        </div>
+                    </div>
+                    <a href="" class="submit-btn btn" onclick="alertUser()">SEND IT</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class='ontop'>
+        <div>
+            <img
+                src='https://1.bp.blogspot.com/-k6sikOdzFXQ/VwqCKDosmEI/AAAAAAAAKxE/nLxLhkTIO6o3iE5ZWmtxo2bf4QHdzPQNQ/s1600/top.png' />
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <p class="footer-text">Copyright © 2020 IELTSRuby. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./Vendors/JS/jquery.waypoints.min.js"></script>
+    <script src="./Resources/JS/scripts.js"></script>
+
+
+
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.0.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</html>
